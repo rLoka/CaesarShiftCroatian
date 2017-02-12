@@ -4,8 +4,8 @@ from numbers import Number
 
 alphabet = []
 altalphabet = []
-letters = "A,B,C,Ć,Č,D,Đ,DŽ,E,F,G,H,I,J,K,L,LJ,M,N,NJ,O,P,R,S,Š,T,U,V,Z,Ž"
-altletters = "A,B,C,Ć,Č,D,Đ,X,E,F,G,H,I,J,K,L,Y,M,N,W,O,P,R,S,Š,T,U,V,Z,Ž"
+letters = "A,B,C,Č,Ć,D,Đ,DŽ,E,F,G,H,I,J,K,L,LJ,M,N,NJ,O,P,R,S,Š,T,U,V,Z,Ž"
+altletters = "A,B,C,Č,Ć,D,Đ,X,E,F,G,H,I,J,K,L,Y,M,N,W,O,P,R,S,Š,T,U,V,Z,Ž"
 alphabet.extend(letters.split(","))
 altalphabet.extend(altletters.split(","))
 
